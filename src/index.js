@@ -1,3 +1,5 @@
+import { greet } from './greet';
+
 
 const name = 'Céleste';
-console.log(name);
+console.log(greet(name));
